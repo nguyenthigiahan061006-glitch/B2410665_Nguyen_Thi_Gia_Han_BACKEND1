@@ -1,0 +1,23 @@
+### 1. Test GET All Contacts
+GET http://localhost:3000/api/contacts
+
+### 2. Test POST Create Contact
+POST http://localhost:3000/api/contacts
+
+### 3. Test DELETE All Contacts
+DELETE http://localhost:3000/api/contacts
+
+### 4. Test GET Favorite Contacts
+GET http://localhost:3000/api/contacts/favorite
+
+### 5. Test GET One Contact
+GET http://localhost:3000/api/contacts/1
+
+### 6. Test PUT Update Contact
+PUT http://localhost:3000/api/contacts/1
+
+### 7. Test DELETE One Contact
+DELETE http://localhost:3000/api/contacts/1
+
+### 8. Test Error 404
+GET http://localhost:3000/api/unknown
