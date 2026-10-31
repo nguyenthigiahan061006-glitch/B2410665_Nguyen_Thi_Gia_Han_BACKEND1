@@ -19,5 +19,3 @@ PUT http://localhost:3000/api/contacts/1
 ### 7. Test DELETE One Contact
 DELETE http://localhost:3000/api/contacts/1
 
-### 8. Test Error 404
-GET http://localhost:3000/api/unknown
